@@ -26,4 +26,4 @@ elif e== 6 :
     jumlah = r**t
     print ("hasil dari",r,"dipangkatkan dengan",t,"adalah",jumlah)
 else :
-    print ("ramasokk")
+    print ("kotak")
