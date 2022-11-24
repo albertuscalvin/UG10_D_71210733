@@ -1,35 +1,29 @@
-def kalkulator():   
-    cont = "m"
-    while cont.lower() == "m":
-        print("Select operation\n1.tambah\n2.kurang\n3.kali\n4.bagi")
-
-        pilihan = input("masukkan pilihan(1/2/3/4/5/6):")
-
-        satu = int(input("Enter first number: "))
-        dua = int(input("Enter second number: "))
-        
-
-        if pilihan == '1':
-            print(satu,"+",dua,"=", (satu + dua))
-
-        elif pilihan == '2':
-            print(satu,"-",dua,"=", (satu - dua))
-
-        elif pilihan == '3':
-            print(satu,"*",dua,"=", (satu * dua))
-
-        elif pilihan == '4':
-            print(satu,"/",dua,"=", (satu / dua))
-        elif pilihan == '5':
-            print(satu,"%",dua,"=", (satu % dua))
-        elif pilihan == '6'
-            print(satu,"**",dua,"=",(satu ** dua ))
-        else:
-            print("Invalid input")
-        cont = input("press q to stop:")
-        if cont == "q":
-            break
-
-star = input("tekan q untuk memulai = ")
-if star == "q":
-    kalkulator()
+print ("ketik 1 untuk menghitung penjumlahan")
+print ("ketik 2 untuk menghitung pegurangan")
+print ("ketik 3 untuk menghitung perkalian")
+print ("ketik 4 untuk menghitung pembagian")
+print ("ketik 5 untuk menghitung sisa hasil bagi")
+print ("ketik 6 untuk menghitung pemangkatan")
+e = int(input("masukan pilihan anda:"))
+r = int(input("masukan bilangan pertama:"))
+t = int(input("masukan bilangan kedua:"))
+if e== 1 :
+    jumlah = r+t
+    print ("hasil dari",r,"dijumlahkan dengan",t,"adalah",jumlah)
+elif e== 2 :
+    jumlah = r-t
+    print ("hasil dari",r,"dikurangi dengan",t,"adalah",jumlah)
+elif e== 3 :
+    jumlah = r*t
+    print ("hasil dari",r,"dikali dengan",t,"adalah",jumlah)
+elif e== 4 :
+    jumlah = r/t
+    print ("hasil dari",r,"dibagi dengan",t,"adalah",jumlah)
+elif e== 5 :
+    jumlah = r%t
+    print ("hasil dari",r,"sisa bagi dengan",t,"adalah",jumlah)
+elif e== 6 :
+    jumlah = r**t
+    print ("hasil dari",r,"dipangkatkan dengan",t,"adalah",jumlah)
+else :
+    print ("ramasokk")
